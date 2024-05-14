@@ -19,5 +19,4 @@ jobs:
         python-version: '3.x'
 
     - name: Run test
-      run: |
-        python -m unittest discover test
+      run: unittest
